@@ -1,0 +1,25 @@
+# === Python bytecode and cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Logs and editor backups ===
+*.log
+*.swp
+*.bak
+
+# === Ignore API credentials or tokens ===
+pushoverTokens.py
+.env
+
+# === Ignore all output scrapes ===
+scrapers/scrapes/
+
+# === macOS & Windows system files ===
+.DS_Store
+Thumbs.db
+
+# === IDE/editor config ===
+.vscode/
+.idea/
