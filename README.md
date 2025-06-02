@@ -1,13 +1,13 @@
 # DIY Restock Notifier (Raspberry Pi Automation)
 
-This is a *WIP automation tool* designed to run on a Raspberry Pi and monitor the availability of in-demand species from online retailers with no native restock notifications. When a plant of interest is back in stock, it sends a push notification to your phone:
+This is a *WIP automation tool* designed to run on a Raspberry Pi and monitor the availability of in-demand plant species from online retailers with no native restock notifications. When a plant of interest is back in stock, it sends a push notification to your phone:
 
 - Automatically scrape selected plant store websites
 - Collect + store data for store inventory for every scrape
 - Notify the user via Pushover with a message and link
 - (optional) Display the historical data on a dashboard
 
-Notifications are sent via the Pushover API with the plant name and a direct link to the restocked item. The current setup is specific to one vendor, but can be easily extended by creating new scraper/parser pairs.
+Notifications are sent via the Pushover API with the plant name and a direct link to the restocked item. The current setup is specific to one vendor, but can be easily extended by creating new scraper/parser pairs. This can also be adapted for non-plant needs.
 
 ---
 
